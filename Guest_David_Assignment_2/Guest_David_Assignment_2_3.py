@@ -5,18 +5,19 @@ David Guest
 Assignment #2.3
 Due Date: 2/11/2022
 
-
+Convert feet into meters
 """
 
 
-#
-def method():
-    return
+# convert a value in feet to meters
+def feet_to_meters(feet):
+    return 0.305 * feet
 
 
 # run my methods starting here
 def main(args):
-    method()
+    feet = float(input("Enter a value for feet: "))
+    print("{0} feet is {1} meters ".format(feet, feet_to_meters(feet).__round__(4)))
 
 
 main(0)
