@@ -5,18 +5,20 @@ David Guest
 Assignment #2.1
 Due Date: 2/11/2022
 
-
+We are converting degree values from Celsius into Fahrenheit
 """
 
 
-#
-def method():
-    return
+# converts a celsius value into fahrenheit
+def method(celsius):
+    fahrenheit = (9 / 5) * celsius + 32
+    return fahrenheit
 
 
 # run my methods starting here
 def main(args):
-    method()
+    celsius = float(input("Please type a value in Celsius: "))
+    print("{0} degrees Celsius is {1} degrees Fahrenheit.".format(celsius, method(celsius).__round__(2)))
 
 
 main(0)
