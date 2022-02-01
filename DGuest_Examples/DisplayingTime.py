@@ -19,12 +19,12 @@ def calc(seconds):
     days = hours // 24
     hoursRemaining = hours % 24
 
-    months = days // 365
+    years = days // 365
     daysRemaining = days % 365
 
 
-    print("That is {4} months, {0} days, {1} hours, {2} minutes, and {3} seconds".format(
-        daysRemaining, hoursRemaining, minutesRemaining, secondsRemaining, months
+    print("That is {4} years, {0} days, {1} hours, {2} minutes, and {3} seconds".format(
+        daysRemaining, hoursRemaining, minutesRemaining, secondsRemaining, years
     ))
 
 
