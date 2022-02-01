@@ -17,7 +17,7 @@ def feet_to_meters(feet):
 # run my methods starting here
 def main(args):
     feet = float(input("Enter a value for feet: "))
-    print("{0} feet is {1} meters ".format(feet, feet_to_meters(feet).__round__(4)))
+    print("{0} feet is {1} meters ".format(feet, feet_to_meters(feet).__format__(".4f")))
 
 
 main(0)

@@ -17,7 +17,7 @@ def lbs_to_kgs(lbs):
 # run my methods starting here
 def main(args):
     lbs = float(input("Enter a value in pounds: "))
-    print("{0} pounds is {1} kilograms ".format(lbs, lbs_to_kgs(lbs).__round__(3)))
+    print("{0} pounds is {1} kilograms ".format(lbs, lbs_to_kgs(lbs).__format__(".3f")))
 
 
 main(0)

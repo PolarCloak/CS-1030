@@ -13,7 +13,7 @@ import math
 # the math to convert a radius to an area
 def compute_area(radius):
     area = radius * radius * math.pi
-    print("The area is {0}".format(area.__round__(4)))
+    print("The area is {0}".format(area.__format__(".4f")))
     return area
 
 
@@ -27,7 +27,7 @@ def compute_volume(radius, length):
 # run my methods starting here
 def main(args):
     radius, length = eval(input("Insert values: {radius}, {length} : "))
-    print("The volume is {0}.".format(compute_volume(radius, length).__round__(1)))
+    print("The volume is {0}.".format(compute_volume(radius, length).__format__(".1f")))
 
 
 main(0)

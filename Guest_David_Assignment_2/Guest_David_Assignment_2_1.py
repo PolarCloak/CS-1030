@@ -18,7 +18,7 @@ def convert_to_f(celsius):
 # run my methods starting here
 def main(args):
     celsius = float(input("Please type a value in Celsius: "))
-    print("{0} degrees Celsius is {1} degrees Fahrenheit.".format(celsius, convert_to_f(celsius).__round__(2)))
+    print("{0} degrees Celsius is {1} degrees Fahrenheit.".format(celsius, convert_to_f(celsius).__format__(".2f")))
 
 
 main(0)
