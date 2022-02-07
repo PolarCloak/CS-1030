@@ -10,13 +10,24 @@ Due Date: 2/11/2022
 
 
 #
-def method():
+def days_to_years(days):
+
     return
+
+
+#
+def minutes_to_days(minutes):
+    hours = minutes/60
+    days = hours/24
+    return days
 
 
 # run my methods starting here
 def main(args):
-    method()
+    minutes = eval(input("Enter the number of minutes: "))
+    print("{0} degrees Celsius is {1} degrees Fahrenheit.".format(minutes, convert_to_f(celsius).__format__(".2f")))
+
+1000000000 minutes is approximately 1902 years and 214 days
 
 
 main(0)
