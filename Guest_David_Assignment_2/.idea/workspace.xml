@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="41b0b184-2d6a-441c-932a-fbd03cfa1783" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Guest_David_Assignment_2_7.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guest_David_Assignment_2_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Guest_David_Assignment_2_16.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guest_David_Assignment_2_16.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Guest_David_Assignment_2_8.py" beforeDir="false" afterPath="$PROJECT_DIR$/Guest_David_Assignment_2_8.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +44,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Guest_David_Assignment_2_7.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Guest_David_Assignment_2_8.py" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,7 +57,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Guest_David_Assignment_2_7" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Guest_David_Assignment_2_8" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Guest_David_Assignment_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,7 +70,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Guest_David_Assignment_2_7.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Guest_David_Assignment_2_8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -88,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643735413205</updated>
       <workItem from="1643735414845" duration="4317000" />
-      <workItem from="1644340252141" duration="1493000" />
+      <workItem from="1644340252141" duration="2002000" />
     </task>
     <servers />
   </component>
@@ -108,7 +109,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Guest_David_Assignment_2$Guest_David_Assignment_2_6.coverage" NAME="Guest_David_Assignment_2_7 Coverage Results" MODIFIED="1644341038203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Guest_David_Assignment_2$Guest_David_Assignment_2_6.coverage" NAME="Guest_David_Assignment_2_8 Coverage Results" MODIFIED="1644342242701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Guest_David_Assignment_2$Guest_David_Assignment_2_1.coverage" NAME="Guest_David_Assignment_2_6 Coverage Results" MODIFIED="1643739382849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

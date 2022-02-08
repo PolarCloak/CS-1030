@@ -21,7 +21,7 @@ def main(args):
     start_temp = eval(input("Enter the initial temperature: "))
     end_temp = eval(input("Enter the final temperature: "))
     joules = get_joules(mass, start_temp, end_temp)
-    print("The energy needed is {0} joules.".format(joules.__round__("0.1f")))
+    print("The energy needed is {0} joules.".format(joules.__format__(".1f")))
 
 
 main(0)
