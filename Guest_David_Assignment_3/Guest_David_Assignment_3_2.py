@@ -5,7 +5,7 @@ David Guest
 Assignment #3.2
 Due Date: 2/25/2022
 
-
+Geometry: Great circle distance
 """
 
 
