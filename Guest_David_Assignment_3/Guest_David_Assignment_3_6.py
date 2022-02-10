@@ -9,14 +9,16 @@ Find the Character of an ASCII Code
 """
 
 
-#
-def method():
-    return
+# Simply converts the asci value provided into a character
+def asci_to_char(asci_value):
+    return chr(asci_value)
 
 
 # run my methods starting here
 def main(args):
-    method()
+    asci_in = int(input("Enter an ASCII code: "))
+    character = asci_to_char(asci_in)
+    print(f"The character is {character}")
 
 
 main(0)
