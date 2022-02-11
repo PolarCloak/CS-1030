@@ -8,16 +8,14 @@ Due Date: 2/25/2022
 Reverse Number
 """
 
-# Takes a user-defined int and runs through each digit, reversing its order
-import string
 
-
+# Takes a user-defined int (anything works) and runs through each digit, reversing its order
 def reverse(user_input):
     # initialize values used in loop
     output = ""
     chars = [*user_input]
     # while the value still has at least 2 or more digits
-    for i in range(len(chars)-1, -1, -1):
+    for i in range(len(chars) - 1, -1, -1):
         output += chars[i]
     # add the last digit to the sum
     return output
