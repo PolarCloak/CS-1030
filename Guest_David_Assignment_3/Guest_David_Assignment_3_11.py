@@ -23,7 +23,7 @@ def reverse(user_input):
 
 # run my methods starting here
 def main(args):
-    user_input = input("Enter a value to reverse: ")
+    user_input = input(f"Enter a value to reverse: ")
     reversed_input = reverse(user_input)
     print(f"The reverse is: '{reversed_input}'")
 

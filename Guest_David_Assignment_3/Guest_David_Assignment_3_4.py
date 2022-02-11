@@ -18,7 +18,7 @@ def calculate_pentagon(side_length):
 
 # run my methods starting here
 def main(args):
-    side_in = eval(input("Enter the side: "))
+    side_in = eval(input(f"Enter the side: "))
     area = calculate_pentagon(side_in)
     print(f"The area of the pentagon is {area}")
 

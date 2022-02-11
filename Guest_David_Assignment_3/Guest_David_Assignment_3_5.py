@@ -18,8 +18,8 @@ def calculate_area(num_sides, side_length):
 
 # run my methods starting here
 def main(args):
-    num_sides = eval(input("Enter the number of sides: "))
-    side_length = eval(input("Enter the side length: "))
+    num_sides = eval(input(f"Enter the number of sides: "))
+    side_length = eval(input(f"Enter the side length: "))
     area = calculate_area(num_sides, side_length)
     print(f"The area of the polygon is {area}")
 
