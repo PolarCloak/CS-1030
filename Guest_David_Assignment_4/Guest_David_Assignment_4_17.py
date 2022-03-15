@@ -5,7 +5,7 @@ David Guest
 Assignment #4.17
 Due Date: 4/25/22
 
-Rock, Paper, Scissors
+Rock, Paper, Scissors Game
 """
 import random
 import time
