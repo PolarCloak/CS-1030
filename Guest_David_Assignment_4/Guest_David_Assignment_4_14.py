@@ -7,7 +7,8 @@ Due Date: 4/25/22
 
 Game: heads or tails
 """
-import time, random
+import random
+import time
 
 
 # converts a text value of heads or tails to its corresponding integer
