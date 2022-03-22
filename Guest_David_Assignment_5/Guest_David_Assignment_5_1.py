@@ -7,12 +7,14 @@ Due Date: 4/8/22
 
 Count positive & negative numbers & compute average
 """
+# global variables used to access throughout all methods
 posCount = 0
 posTotal = 0
 negCount = 0
 negTotal = 0
 
 
+# after collecting the total counts and total values, we are going to use them and display our output
 def displayOutputs():
     global posCount, posTotal, negCount, negTotal
     total = posTotal - negTotal
@@ -23,6 +25,7 @@ def displayOutputs():
     print(f"The average is {total / totalCount}")
 
 
+# uses a while loop to constantly collect new inputs to be added to global variables until 0 is used
 def getInputs():
     global posCount, posTotal, negCount, negTotal
     value = -1
@@ -41,6 +44,7 @@ def getInputs():
     return
 
 
+# runs a check to see if there was no inputs by checking both pos and neg counts, returns True if no input
 def noInput():
     global posCount, negCount
     if posCount == 0 and negCount == 0:
@@ -57,7 +61,6 @@ def main():
     else:
         print(f"You didn't enter any number.")
         return
-
 
 
 main()
