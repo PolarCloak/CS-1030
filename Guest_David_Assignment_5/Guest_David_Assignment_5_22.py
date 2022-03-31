@@ -16,17 +16,22 @@ MAXIMUM = 1000
 primes = []
 
 
+# prints a header for the list
+def printHeader():
+    print(f"Prime numbers between 2 and {MAXIMUM}:")
+
+
 # prints the prime numbers found in the 'primes' variable
 def printPrimes():
+    printHeader()
     counter = 0
     spacing = 4
     while len(primes) > 0:
+        # found out that you can use variables in place of parts of a f-string formatting
         print(f"{primes.pop():<{spacing}} ", end='')
         counter += 1
-        spacing += 1
         if counter == 8:
             counter = 0
-            spacing = 4
             print(f"\n")
 
 
@@ -42,8 +47,11 @@ def getPrimes(maximum):
             if i % foundPrime == 0:
                 notPrime = True
                 break
+        # once we have checked all of the current primes against this item
+        # if notPrime hasn't been changed, then it must be prime
         if not notPrime:
             primes.append(i)
+    # reverse the primes so that they can be popped off of the list in correct order
     primes.reverse()
     return
 

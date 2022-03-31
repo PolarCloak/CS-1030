@@ -29,8 +29,10 @@ def displayOutputs():
 def getInputs():
     global posCount, posTotal, negCount, negTotal
     value = -1
-    while value != 0:
+    # always loop, and only leave when you break
+    while True:
         value = eval(input(f"Enter an integer, the input ends if it is 0: "))
+        # separate the negatives and positives, and the stand-alone 0
         if value == 0:
             break
         elif value < 0:
@@ -40,6 +42,7 @@ def getInputs():
             posTotal += value
             posCount += 1
         else:
+            # shouldn't be possible, but catching anything else
             raise ValueError
     return
 
@@ -47,6 +50,7 @@ def getInputs():
 # runs a check to see if there was no inputs by checking both pos and neg counts, returns True if no input
 def noInput():
     global posCount, negCount
+    # when there are no count of positives or negatives.
     if posCount == 0 and negCount == 0:
         return True
     else:

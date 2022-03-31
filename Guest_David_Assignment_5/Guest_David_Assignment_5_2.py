@@ -7,6 +7,7 @@ Due Date: 4/8/22
 
 Repeat additions
 """
+# imports
 import random
 import time
 
