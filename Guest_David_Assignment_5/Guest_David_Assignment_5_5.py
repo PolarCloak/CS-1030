@@ -15,11 +15,12 @@ LB_TO_KG = 0.45
 # prints the top part of the table
 def tableTop():
     print(f"{'Kilograms':<}      {'Pounds':<}      |      {'Pounds':<}       {'Kilograms':<}")
+    print(f"--------------------------------------------------------------")
 
 
 # displays the table
 def tableLoop():
-    print(f"--------------------------------------------------------------")
+    # loop from 0-99 and uses that number to go to Kg and Lb with multiplying a constant
     for i in range(0, 100, 1):
         kg = i * 2 + 1
         lb = i * 5 + 20

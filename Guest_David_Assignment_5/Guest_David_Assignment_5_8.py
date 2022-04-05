@@ -17,6 +17,7 @@ def tableTop():
 
 # displays the table, only the evens.
 def tableLoop():
+    # print the square root and numbers: 0-20, only evens
     for number in range(0, 21, 2):
         print(f"{number:<12} {math.sqrt(number):<.4f}")
 

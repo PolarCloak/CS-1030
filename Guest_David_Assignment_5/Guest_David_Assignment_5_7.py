@@ -7,6 +7,7 @@ Due Date: 4/8/22
 
 Use trigonometric functions
 """
+# imports
 import math
 
 
@@ -21,14 +22,16 @@ def tableLoop():
     for degree in range(0, 361, 10):
         sin = math.sin(degree)
         cos = math.cos(degree)
+        # all cases are covered for sin and cos values.
         if sin >= 0 and cos >= 0:
-            print(f"{degree:<12} {math.sin(degree):<12.4f} {math.cos(degree):<.4f}")
+            print(f"{degree:<12} {sin:<12.4f} {cos:<.4f}")
         elif sin < 0 and cos >= 0:
-            print(f"{degree:<11} {math.sin(degree):<13.4f} {math.cos(degree):<.4f}")
+            print(f"{degree:<11} {sin:<13.4f} {cos:<.4f}")
         elif sin >= 0 and cos < 0:
-            print(f"{degree:<12} {math.sin(degree):<11.4f} {math.cos(degree):<.4f}")
+            print(f"{degree:<12} {sin:<11.4f} {cos:<.4f}")
         elif sin < 0 and cos < 0:
-            print(f"{degree:<11} {math.sin(degree):<12.4f} {math.cos(degree):<.4f}")
+            print(f"{degree:<11} {sin:<12.4f} {cos:<.4f}")
+        # else should not be possible
         else:
             raise TypeError
 

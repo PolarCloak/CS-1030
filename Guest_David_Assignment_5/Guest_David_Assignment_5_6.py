@@ -15,11 +15,12 @@ KM_TO_MI = 0.621
 # prints the top part of the table
 def tableTop():
     print(f"{'Miles':<}      {'Kilometers':<}      |      {'Kilometers':<}       {'Miles':<}")
+    print(f"--------------------------------------------------------------")
 
 
 # displays the table
 def tableLoop():
-    print(f"--------------------------------------------------------------")
+    # loop from 0-9 and uses that number to go to Mi and KM with multiplying a constant
     for i in range(0, 10, 1):
         mi = i + 1
         km = i * 5 + 20
