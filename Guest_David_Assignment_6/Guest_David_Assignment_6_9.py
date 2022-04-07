@@ -20,8 +20,8 @@ def displayTable():
     tableTop()
     for i in range(0, 10, 1):
         feet = i + 1
-        meter = i * 6 + 20
-        print(f"{feet:<10} {footToMeter(feet):<16.1f}|      {meter:<16} {meterToFoot(meter):<.2f}")
+        meter = i * 5 + 20
+        print(f"{feet:<10} {footToMeter(feet):<16.3f}|      {meter:<16} {meterToFoot(meter):<.3f}")
     return
 
 
